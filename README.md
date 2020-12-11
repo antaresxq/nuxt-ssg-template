@@ -1,4 +1,5 @@
 # nuxt-ssg-template
+SSG starter using Nuxt + Vue 3
 
 ## Build Setup
 
