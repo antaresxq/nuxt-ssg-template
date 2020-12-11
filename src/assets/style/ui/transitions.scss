@@ -1,0 +1,58 @@
+@import "~@/assets/style/variables/variables";
+
+.t-fade {
+  &-leave-active,
+  &-enter-active {
+    transition: $transition-s ease;
+  }
+
+  &-enter,
+  &-leave-to {
+    opacity: 0;
+  }
+
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+  }
+}
+
+
+.t-slide-up {
+  &-leave-active,
+  &-enter-active {
+    transition: $transition-s ease;
+  }
+
+  &-enter,
+  &-leave-to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.t-slide-right {
+  &-leave-active,
+  &-enter-active {
+    transition: $transition-s ease;
+  }
+
+  &-enter,
+  &-leave-to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
