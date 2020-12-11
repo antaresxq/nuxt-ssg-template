@@ -1,4 +1,6 @@
 import { getSvgoConfig } from './webpack/svgo.config'
+import { ru } from './src/translations/ru'
+import { en } from './src/translations/en'
 
 const FOLDER_SOURCE_NAME = 'src'
 
@@ -39,7 +41,7 @@ export default {
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
+  modules: ['nuxt-i18n'],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
@@ -53,6 +55,19 @@ export default {
       return {
         plugins: [getSvgoConfig()],
       }
+    },
+  },
+
+  i18n: {
+    locales: ['en', 'ru'],
+    defaultLocale: 'ru',
+    strategy: 'prefix_and_default',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en,
+        ru,
+      },
     },
   },
 }
