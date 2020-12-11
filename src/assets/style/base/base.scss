@@ -1,0 +1,15 @@
+@import "../variables/variables.scss";
+
+html {
+  //font-family: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*::selection {
+  //
+}

@@ -1,0 +1,32 @@
+//- TRANSITIONS
+//
+$transition-xs: 0.25s;
+$transition-s: 0.35s;
+$transition-m: 0.5s;
+$transition-l: 0.75s;
+$transition-xl: 1s;
+//
+//- END
+
+
+//- APP SCREEN SIZES
+//
+$screen-xxxl: 1920px;
+$screen-xxl: 1666px;
+$screen-xl: 1366px;
+$screen-lg: 1024px;
+$screen-md: 768px;
+$screen-sm: 566px;
+$screen-xs: 414px;
+$screen-xxs: 360px;
+
+$screen-xxxl-min: $screen-xxxl + 1;
+$screen-xxl-min: $screen-xxl + 1;
+$screen-xl-min: $screen-xl + 1;
+$screen-lg-min: $screen-lg + 1;
+$screen-md-min: $screen-md + 1;
+$screen-sm-min: $screen-sm + 1;
+$screen-xs-min: $screen-xs + 1;
+$screen-xxs-min: $screen-xxs + 1;
+//
+//- END
