@@ -1,5 +1,7 @@
 import { getSvgoConfig } from './webpack/svgo.config'
 
+const FOLDER_SOURCE_NAME = 'src'
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -41,11 +43,10 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    extend(config, ctx) {},
     extractCSS: true,
   },
 
-  srcDir: 'src',
+  srcDir: FOLDER_SOURCE_NAME,
 
   svgSprite: {
     svgoConfig() {
