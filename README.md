@@ -1,5 +1,9 @@
 # nuxt-ssg-template
-SSG starter using Nuxt + Vue 3
+SSG starter using Nuxt
+
+## Code quality tools
++ Stylelint (+ scss)
++ ESlint
 
 ## Build Setup
 
